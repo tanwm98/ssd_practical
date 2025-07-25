@@ -1,0 +1,8 @@
+# .dockerignore
+# ignore everything except what you explicitly allow
+**
+!package.json
+!package-lock.json
+!src/
+!public/
+!server.js
