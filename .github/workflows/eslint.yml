@@ -2,9 +2,9 @@ name: Lint
 description: This workflow runs ESLint to check code quality and style.
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ main, develop, master ]
   pull_request:
-    branches: [ main, develop ]
+    branches: [ main, develop, master ]
   schedule:
     # Optional: Run linting on a schedule to catch any lingering issues
     - cron: '36 5 * * 5'
