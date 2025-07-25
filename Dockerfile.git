@@ -1,0 +1,8 @@
+FROM node:alpine
+RUN apk add --no-cache tini git && yarn global add git-http-server && adduser -D -g git git
+USER git
+WORKDIR /home/git
+RUN git init --bare repository.git
+# Set up Git config
+RUN git config --global user.name "Tan Wei Ming" && git config --global user.email "2301777@SIT.singaporetech.edu.sg"
+ENTRYPOINT ["tini", "--", "git-http-server", "-p", "3000", "/home/git"]
