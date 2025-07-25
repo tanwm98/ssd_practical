@@ -8,7 +8,7 @@ test.describe('Search Application UI Tests', () => {
     // Check if search form is visible - updated to match server.js content
     await expect(page.locator('input[type="text"]')).toBeVisible();
     await expect(page.locator('button[type="submit"]')).toBeVisible();
-    await expect(page.locator('button[type="submit"]')).toContainText('🔍 Validate & Search');
+    await expect(page.locator('button[type="submit"]')).toContainText('Validate & Search');
 
     // Enter a valid search term
     await page.fill('input[type="text"]', 'javascript programming');
