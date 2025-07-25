@@ -2,5 +2,5 @@ projectKey=ssd_practical
 serverUrl=http://localhost:9000
 serverVersion=25.7.0.110598
 dashboardUrl=http://localhost:9000/dashboard?id=ssd_practical
-ceTaskId=636072f3-cbd2-4cd8-b768-95bc221afa8e
-ceTaskUrl=http://localhost:9000/api/ce/task?id=636072f3-cbd2-4cd8-b768-95bc221afa8e
+ceTaskId=66e7587a-b581-4d0c-b894-b4d08f88e91e
+ceTaskUrl=http://localhost:9000/api/ce/task?id=66e7587a-b581-4d0c-b894-b4d08f88e91e
